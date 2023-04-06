@@ -1,4 +1,4 @@
-package by.siarheyeu.springcourse.MeteorologicalSensorRestApp.controllers;
+package by.siarheyeu.springcourse.MeteorologicalSensorRestApp.util;
 
 import by.siarheyeu.springcourse.MeteorologicalSensorRestApp.util.MeasurementException;
 import org.springframework.validation.BindingResult;
