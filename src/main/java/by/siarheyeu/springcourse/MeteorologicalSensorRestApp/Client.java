@@ -28,7 +28,7 @@ public class Client {
 		double maxTemperature = 45.0;
 		for (int i = 0; i < 500; i++) {
 			System.out.println(i);
-			sendMeasurement (minTemperature + (random.nextDouble() * (maxTemperature - minTemperature)),
+			sendMeasurement (random.nextDouble() * maxTemperature,
 				random.nextBoolean(), sensorName);
 		}
 	}
