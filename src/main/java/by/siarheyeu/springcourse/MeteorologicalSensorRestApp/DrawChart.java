@@ -1,6 +1,7 @@
 package by.siarheyeu.springcourse.MeteorologicalSensorRestApp;
 
 
+import by.siarheyeu.springcourse.MeteorologicalSensorRestApp.dto.MeasurementsResponse;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
@@ -16,4 +17,5 @@ public class DrawChart {
         final String url = "http://localhost:8080/measurements";
         }
 
+        MeasurementsResponse
 }
